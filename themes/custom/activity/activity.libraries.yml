@@ -1,0 +1,21 @@
+global-styles:
+  css:
+    theme:
+      css/style.css: {}
+
+  dependencies:
+    - core/jquery
+    - core/drupal
+  js:
+    js/custom.js: {}
+
+slick:
+  dependencies:
+    - core/jquery
+    - core/drupal
+  js:
+    node_modules/slick-carousel/slick/slick.min.js: {}
+  css:
+    theme:
+      node_modules/slick-carousel/slick/slick-theme.css: {}
+      node_modules/slick-carousel/slick/slick.css: {}
